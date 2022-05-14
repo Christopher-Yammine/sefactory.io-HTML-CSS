@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 900px;
+    background-image: url('C:/Users/User/Desktop/sefactory.io-HTML-CSS/assets/bg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100%;
+   
+}
+
+.img-bg-container 
+{
+    
+    display: flex;
+    
+}
+
+
+.img-bg-container > div 
+{
+  
+    height: fit-content;
+    width:fit-content;
+    
+    
+}
+.img-bg-container > div > ul
+{   
+    width: 100%;
+    list-style-type:none;
+    overflow: hidden;
+    background-color:transparent;
+    padding-top:20px ;
+    padding-left:50px ;
+   
+}
+
+.img-bg-container > div > ul > li
+{   
+    display: inline;
+    font-family:sans-serif;
+    font-weight: bold;
+    background-color:transparent;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+
+.img-bg-container > div > ul > li > a
+{
+    text-decoration: none;
+    padding-right: 30px;
+    color: whitesmoke;
+    font-size: 12pt;
+}
+.img-bg-container > div > ul > li > a:hover{
+    text-decoration: underline;
+
+}
+.img-bg-container > div > img 
+{   
+    padding-left: 92px;
+    padding-top: 12px;
+    padding-right: 270px;
+    width: 80px ;
+    height: auto;
+    
+}
+.btns {
+    width: 100px;
+    height: 40px;
+    border-radius: 7%;
+    background-color:#00dd00;
+    border: 0;
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+}
+.btns-1 {
+    width: 130px;
+    height: 50px;
+    border-radius: 7%;
+    background-color:#00dd00;
+    border: 0;
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.img-bg-container > div.intro >div
+{
+    flex-direction: column;
+}

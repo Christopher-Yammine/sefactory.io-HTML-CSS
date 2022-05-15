@@ -94,11 +94,7 @@ body {
     font-weight: bold;
     font-size: 15pt;
 }
-.img-bg-container > div.intro >div
-{
-    flex-direction: column;
-    width:auto;
-}
+
 .img-bg-container > div.intro >div.stats
 {
     text-align:center;
@@ -113,16 +109,49 @@ body {
     justify-content:space-around;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 50px;
 }
 .stats-container  > div.intro >div
 {
     flex-direction: column;
     width:auto;
+    border:solid;
+    padding-top: 20px;
 }
-.stats-container  > div.intro >div.stats
+.stats-container  > div.intro >div>a:link
 {
-    text-align:center;
-    font-weight: bold;
+    color: #00dd00;
+    font-size: 16pt;
     font-family: sans-serif;
-    font-size: 20pt;
+    padding-left: 60px;
+    
+}
+.stats-container  > div.intro >div>a:visited
+{
+    color: #00dd00;
+    font-size: 16pt;
+    font-family: sans-serif;
+    padding-left: 60px;
+}
+
+.green-container {
+    display: flex;
+    border: solid; 
+    justify-content:space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    background-color: #00dd00;
+    height:900px;
+}
+
+.green-container >div.green-div
+{
+    display: flex;
+}
+.green-container >div.green-div >div{   
+    flex-direction: column;
+    width:auto;
+    border:solid;
+    padding-top: 20px;
 }

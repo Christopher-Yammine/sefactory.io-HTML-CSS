@@ -179,3 +179,62 @@ body {
     flex-direction: column;
     width: 340px;
 }
+.grey-slip {
+   
+    border: solid; 
+    background-color: rgb(236, 236, 236);
+    height:max-content;
+ 
+}
+.grey-slip > .grey-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grey-slip > .grey-container > div{ 
+
+    text-align: center;
+    font-size: 32pt;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+
+}
+.grey-slip > .grey-container > div> a 
+{ 
+   text-decoration: none;
+    
+}
+    
+.btns-2 {
+        width: 130px;
+        height: 50px;
+        border-radius: 7%;
+        background-color:black;
+        border: 0;
+        color: whitesmoke;
+        font-family:sans-serif;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+footer {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: large;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+footer > div> a:link 
+{
+    color:#00dd00;
+    text-decoration: none;
+    
+}
+
+footer >div> a:visited
+{
+    color:#00dd00
+}
+
+
